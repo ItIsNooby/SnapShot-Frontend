@@ -6,10 +6,14 @@
 3.  **Lunch** will be available at 12pm each day.  Supplies will be available to make your own lunch.  You can dine in the hall or take it with you depending on planned activities.  As always clean up after yourself and your family.  
 4.  **Dinner** will be available at 6pm each evening. It is strongly encouraged to eat in the hall all together so that you do not miss the 7pm Family Night directly afterwards.
 - **NOTE** - The menu for the day will be posted in the dinning hall each morning. Snacks will be left out after lunch and if any remain will be put away when dinner is being prepared.
-    
+
 ### Monday Dinner - Head Chef Lisa (6 - 7pm)
 
-
+<form>
+  <input type="file" name="image">
+  <textarea name="message"></textarea>
+  <button type="submit">Upload</button>
+</form>
  
 ### Tuesday Breakfast (8-9:30am)
 > Grits and Sausage Links in the main hall
