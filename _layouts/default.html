@@ -23,7 +23,7 @@
 
   </head>
   <body>
-      
+
     <div class="wrapper">
 
       <section>
@@ -31,6 +31,8 @@
         <div id="title">
           <h1><a href={{ site.gitorg }}>{{ site.title | default: site.github.repository_name }}</a></h1>
           <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          {% include home.html %}
         </div>
 
         <!-- this is Jekyll magic, each md file in site will be inserted here -->
