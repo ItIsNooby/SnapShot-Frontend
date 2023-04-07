@@ -116,7 +116,7 @@
 				<input type="text" name="message-input" placeholder="Type a message...">
 				<button type="submit">Send</button>
 			</form>
-		</section>
+		</section> 
 	</main>
 </body>
 </html> 
