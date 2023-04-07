@@ -108,7 +108,7 @@
       </div>
     </div>
     <div class="post-content">
-      <p> I  enjoy the taste of Burger King's flame-grilled burgers and find them satisfying. Some people may also crave Burger King's signature Whopper sandwich, which includes flame-grilled beef, tomatoes, lettuce, and other toppings.</p>
+      <p> I  enjoy the taste of Burger King's flame-grilled burgers and find them satisfying. Some people may also crave Burger King's signature Whopper sandwich, which includes flame-grilled beef, tomatoes, lettuce, and other toppings. I'm absolutely massive.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>

@@ -98,7 +98,7 @@
     <div class="profile-info">
       <h1>Username</h1>
       <button type="button" class="edit-username">Edit Username</button>
-      <p class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam faucibus dolor ut metus ultricies, ac volutpat nulla faucibus. Nulla eget turpis sed nulla mollis dictum quis in ipsum.</p>
+      <p class="bio">Digital marketer by day, foodie by night 🍔🍕🍟 Sharing my passion for travel and photography ✈️📷 Let's connect and explore together! 🌎</p>
       <button type="button" class="edit-bio">Edit Bio</button>
     </div>
   </div>
