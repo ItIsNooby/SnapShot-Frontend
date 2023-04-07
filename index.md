@@ -126,7 +126,7 @@
       </div>
     </div>
     <div class="post-content">
-      <p> I get carried by Joel Embiid and he is the only reason why I lead the league in assists per game. I am the 4th best player on my team behind Joel, Tyrese, and of course Tobias.</p>
+      <p> I get carried by Joel Embiid and he is the only reason why I lead the league in assists per game. I am the 4th best player on my team behind Joel, Tyrese, and of course Tobias Harris.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>
