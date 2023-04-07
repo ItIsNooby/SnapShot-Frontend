@@ -1,42 +1,138 @@
-## Location
-> Browse [Coram Ranch Site](https://www.coramranch.com/) to learn about reunion location and surrounding community. 
-- [Video Tour](https://youtu.be/kX24Zv1CJZA)
-- [Google Maps 14251 Coram Rd, Shasta Lake, California 96089](https://www.google.com/maps/place/14251+Coram+Rd,+Shasta+Lake,+CA+96019/@40.707988,-122.44701,16z/data=!4m5!3m4!1s0x54d28be161c895ef:0xca3b8805b9b6a5ec!8m2!3d40.7079882!4d-122.4470104?hl=en)
-- ***NO PETS***
 
-## Schedule
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Post</title>
+  <style>
+    body {
+      font-family: Times, sans-serif;
+      background-color: #86c5da;
+    }
+    
+    .post {
+      background-color: white;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1);
+      border-radius: 5px;
+      padding: 20px;
+      margin: 20px;
+    }
+    
+    .post-header {
+      display: flex;
+      align-items: center;
+    }
+    
+    .post-header img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    
+    .post-header h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    
+    .post-header p {
+      margin: 0;
+      font-size: 14px;
+      color: #888;
+    }
+    
+    .post-content {
+      margin-top: 10px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    .post-actions {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .post-actions button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      color: #888;
+      font-size: 14px;
+      margin-right: 20px;
+      padding: 0;
+      display: flex;
+      align-items: center;
+    }
+    
+    .post-actions button:hover {
+      color: #333;
+    }
+    
+    .post-actions button img {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="post">
+    <div class="post-header">
+      <img src="https://via.placeholder.com/50" alt="Profile picture">
+      <div>
+        <h3>Babytron</h3>
+        <p>2 hours ago</p>
+      </div>
+    </div>
+    <div class="post-content">
+      <p>Life is a journey, and sometimes we get lost along the way. But it's never too late to find our way back and discover new paths. #inspiration #motivation. Also new album coming soon</p>
+    </div>
+    <div class="post-actions">
+      <button><img src="like.png" alt="Like icon">Like</button>
+      <button><img src="comment.png" alt="Comment icon">Comment</button>
+      <button><img src="report.png" alt="Report icon">Report</button>
+      <button><img src="share.png" alt="Share icon">Share</button>
+    </div>
+  </div>
+  
+  <div class="post">
+    <div class="post-header">
+<img src="https://via.placeholder.com/50" alt="Profile picture">
+      <div>
+        <h3>Zion Williamson</h3>
+        <p>7 hours ago</p>
+      </div>
+    </div>
+    <div class="post-content">
+      <p> I  enjoy the taste of Burger King's flame-grilled burgers and find them satisfying. Some people may also crave Burger King's signature Whopper sandwich, which includes flame-grilled beef, tomatoes, lettuce, and other toppings.</p>
+    </div>
+    <div class="post-actions">
+      <button><img src="like.png" alt="Like icon">Like</button>
+      <button><img src="comment.png" alt="Comment icon">Comment</button>
+      <button><img src="report.png" alt="Report icon">Report</button>
+      <button><img src="share.png" alt="Share icon">Share</button>
+    </div>
+  </div>
+  <div class="post">
+    <div class="post-header">
+<img src="https://via.placeholder.com/50" alt="Profile picture">
+      <div>
+        <h3>James Harden</h3>
+        <p>3 Days Ago</p>
+      </div>
+    </div>
+    <div class="post-content">
+      <p> I get carried by Joel Embiid and he is the only reason why I lead the league in assists per game. I am the 4th best player on my team behind Joel, Tyrese, and of course Gary.</p>
+    </div>
+    <div class="post-actions">
+      <button><img src="like.png" alt="Like icon">Like</button>
+      <button><img src="comment.png" alt="Comment icon">Comment</button>
+      <button><img src="report.png" alt="Report icon">Report</button>
+      <button><img src="share.png" alt="Share icon">Share</button>
+    </div>
+  </div>
 
-| Date | Day | Time | Event | Meet At | Coordinator |
-| --- | --- | --- | --- | --- | --- |
-| 6/26 | Monday | 3pm | Check in | Shasta Lakes | Frank and Judith |
-| --- | --- | 6pm | Dinner | Dining Room | Lisa |
-| --- | --- | 7pm | Leuck Greet | Dining Room | Frank and Judith |
-| 6/27 | Tuesday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 9:45am | Morning Huddle | Dining Room | Sherri|
-| --- | --- | 10am | Greet Games | Field and Court | Johnner, Lora, Shay|
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 2pm | Bike/Hike | Bike Rack | Johnner and Lora |
-| --- | --- | 6pm | Dinner hi| Dining Room | Sherri |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/28 | Wednesday | 7:30 | Zumba | Court | Kira |
-| --- | --- | 8:30am | Breakfast | Dining | Lisa |
-| --- | --- | 10am | Pool Olympics | Pool Area | Annalyce, Peyton |
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Spelunking | [Cars, 32 minutes travel](http://lakeshastacaverns.clickforward.com/group-tours) | Johnner and Lora|
-| --- | --- | 6pm | Dinner | Dining Room | Angela |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/29 | Thursday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Field Olympics | Field | Jake, Taylor |
-| --- | --- | 12:30pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Boating | [Cars, 25 minutes travel](https://bridgebayhouseboats.com/houseboats/grand-sierra) | Jared |
-| --- | --- | 6pm | Dinner | Dining Room | Jared and Jeremiah |
-| --- | --- | 7pm | Family Night | Dining Room | John and Mel |
-| 6/30 | Friday | 7:30 | Zumba | Court | Lisa |
-| --- | --- | 8:30am | Breakfast | Dining | Kira |
-| --- | --- | 10am | Family Relays | Field or Court | Johnner |
-| --- | --- | 12pm | Make & Go Lunch | Dining Room | Lisa |
-| --- | --- | 1pm | Explore the area | You pick | Self coordinated |
-| --- | --- | 6pm | Dinner | Dining Room | John |
-| --- | --- | 7pm | Family Night | Dining Room |John and Mel |
-| 7/1 | Saturday | 8am | Breakfast | Dining Room | Lisa |
-| --- | --- | 10am | Check Out | Travel Home | Your it |
