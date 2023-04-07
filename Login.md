@@ -91,4 +91,68 @@
     <input type="submit" value="Sign Up">
   </form>
 </body>
+<script>
+  // Function to handle login form submission
+  function handleLogin() {
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const loginData = {
+      email: email,
+      password: password
+    };
+    // Send a POST request to the backend to initiate login
+    fetch('/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(loginData)
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.token) {
+        // Save the JWT token in localStorage or sessionStorage
+        localStorage.setItem('token', data.token);
+        // Redirect to authenticated page
+        window.location.href = '/authenticated';
+      } else {
+        // Display error message
+        document.getElementById('login-error').innerText = data.message;
+      }
+    })
+    .catch(error => console.error('Error:', error));
+  }
+  // Function to handle signup form submission
+  function handleSignup() {
+    const name = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
+    const signupData = {
+      name: name,
+      email: email,
+      password: password
+    };
+    // Send a POST request to the backend to initiate signup
+    fetch('/signup', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(signupData)
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.token) {
+        // Save the JWT token in localStorage or sessionStorage
+        localStorage.setItem('token', data.token);
+        // Redirect to authenticated page
+        window.location.href = '/authenticated';
+      } else {
+        // Display error message
+        document.getElementById('signup-error').innerText = data.message;
+      }
+    })
+    .catch(error => console.error('Error:', error));
+  }
+</script>
 </html>
