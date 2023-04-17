@@ -85,11 +85,11 @@
       <img src="https://via.placeholder.com/50" alt="Profile picture">
       <div>
         <h3>Babytron</h3>
-        <p>2 hours ago</p>
+        <p>1 hours ago</p>
       </div>
     </div>
     <div class="post-content">
-      <p>Life is a journey, and sometimes we get lost along the way. But it's never too late to find our way back and discover new paths. #inspiration #motivation. Also new album coming soon</p>
+      <p>Life is a journey, and sometimes we get lost along the way. But it's never too late to find our way back and discover new paths. #inspiration #motivation. Also new album coming soon dw gang.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>
@@ -104,7 +104,7 @@
 <img src="https://via.placeholder.com/50" alt="Profile picture">
       <div>
         <h3>Zion Williamson</h3>
-        <p>7 hours ago</p>
+        <p>8 hours ago</p>
       </div>
     </div>
     <div class="post-content">
@@ -126,7 +126,7 @@
       </div>
     </div>
     <div class="post-content">
-      <p> I get carried by Joel Embiid and he is the only reason why I lead the league in assists per game. I am the 4th best player on my team behind Joel, Tyrese, and of course Tobias Harris.</p>
+      <p> I get carried by Joel Embiid and he is the only reason why I lead the league in assists per game. I am the 4th best player on my team behind Joel, Tyrese, and of course Tobias Harris. I need to lose some weight too.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>
@@ -134,5 +134,5 @@
       <button><img src="report.png" alt="Report icon">Report</button>
       <button><img src="share.png" alt="Share icon">Share</button>
     </div>
-  </div>
+  </div> 
 
