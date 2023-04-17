@@ -73,13 +73,19 @@
 <body>
     <div class="post-container">
         <form id="post-form">
+            <label for="image-upload">Choose from files:</label>
             <input type="file" id="image-upload" accept="image/*" required>
+            <br>
+            <label for="camera-input">Take a photo:</label>
+            <input type="file" id="camera-input" accept="image/*" capture="environment">
+            <br>
             <textarea id="caption" placeholder="Write a caption..." required></textarea>
             <button type="submit">Post</button>
         </form>
         <div id="posts"></div>
     </div>
+    <div id="checkmark" style="display: none;">✔️ Posted!</div>
     <script src="script.js"></script>
 </body>
-</html>
+
 
