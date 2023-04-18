@@ -82,7 +82,7 @@
 <body>
   <div class="post">
     <div class="post-header">
-      <img src="https://via.placeholder.com/50" alt="Profile picture">
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fhiphopdx.com%2Freviews%2Fbabytron-out-on-bond-album-review&psig=AOvVaw1XNBXTTKKa1XMyG_EoTNN5&ust=1681931682954000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMiS__iRtP4CFQAAAAAdAAAAABAD" alt="Profile picture">
       <div>
         <h3>Babytron</h3>
         <p>1 hour ago</p>
