@@ -156,3 +156,83 @@
   }
 </script>
 </html>
+
+<html>
+<head>
+    <title>User Registration & Login</title>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form id="registration-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <input type="submit" value="Register">
+    </form>
+    <h1>User Login</h1>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" value="Login">
+    </form>
+    <h1>User Details</h1>
+    <div id="user-details"></div>
+    <script>
+        // Register form submission
+        document.getElementById('registration-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var formData = new FormData(e.target);
+            fetch('/register', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message) {
+                    alert(data.message);
+                } else {
+                    alert(data.error);
+                }
+            })
+            .catch(error => alert('Error: ' + error));
+        });
+        // Login form submission
+        document.getElementById('login-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var formData = new FormData(e.target);
+            fetch('/login', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.message) {
+                    alert(data.message);
+                    getUserDetails(data.user_id);
+                } else {
+                    alert(data.error);
+                }
+            })
+            .catch(error => alert('Error: ' + error));
+        });
+        // Function to get user details
+        function getUserDetails(user_id) {
+            fetch('/user/' + user_id)
+            .then(response => response.json())
+            .then(data => {
+                if (data.username) {
+                    document.getElementById('user-details').innerHTML = 'Username: ' + data.username + '<br>Email: ' + data.email;
+                } else {
+                    alert(data.error);
+                }
+            })
+            .catch(error => alert('Error: ' + error));
+        }
+    </script>
+</body>
+</html>
