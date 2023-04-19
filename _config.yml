@@ -1,5 +1,18 @@
 theme: jekyll-theme-modernist
 title: "SnapShot"
-description: ""
+description: "A description of your website or blog"
 gitorg: "https://itisnooby.github.io/SnapShot-Frontend/"
 google_analytics:
+
+sass:
+  style: compressed
+
+# Add custom CSS
+extra_css:
+  - >
+    <style>
+    .site-title {
+      text-align: center;
+      font-size: 3em;
+    }
+    </style>
