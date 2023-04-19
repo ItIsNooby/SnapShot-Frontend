@@ -21,7 +21,7 @@ header img {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   padding: 20px;
 }
 
@@ -51,10 +51,3 @@ nav a:hover {
   font-weight: bold;
 }
 
-/* Add a footer section with a gray background and white text */
-footer {
-  background-color: #696969;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
