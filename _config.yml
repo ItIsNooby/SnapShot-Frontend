@@ -1,7 +1,7 @@
 theme: jekyll-theme-modernist
-title: "SnapShot"
-description: "A description of your website or blog"
-gitorg: "https://itisnooby.github.io/SnapShot-Frontend/"
+title: SnapShot
+description: Made by the best group
+gitorg: https://itisnooby.github.io/SnapShot-Frontend/
 google_analytics:
 
 sass:
