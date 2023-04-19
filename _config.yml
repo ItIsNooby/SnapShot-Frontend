@@ -1,5 +1,18 @@
 theme: jekyll-theme-modernist
-title: "Capalot"
-description: "Founded April 2023 by RBDJDJ"
-gitorg: "https://github.com/jm1021/leuck_reunion"
+title: SnapShot
+description: Made by the best group
+gitorg: https://itisnooby.github.io/SnapShot-Frontend/
 google_analytics:
+
+sass:
+  style: compressed
+
+# Add custom CSS
+extra_css:
+  - >
+    <style>
+    .site-title {
+      text-align: center;
+      font-size: 3em;
+    }
+    </style>

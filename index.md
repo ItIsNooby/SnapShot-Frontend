@@ -85,7 +85,7 @@
       <img src="https://via.placeholder.com/50" alt="Profile picture">
       <div>
         <h3>Babytron</h3>
-        <p>1 hours ago</p>
+        <p>1 hour ago</p>
       </div>
     </div>
     <div class="post-content">
