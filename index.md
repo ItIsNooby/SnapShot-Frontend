@@ -108,7 +108,7 @@
       </div>
     </div>
     <div class="post-content">
-      <p> I  enjoy the taste of Burger King's flame-grilled burgers and find them satisfying. Some people may also crave Burger King's signature Whopper sandwich, which includes flame-grilled beef, tomatoes, lettuce, and other toppings. I'm absolutely massive.</p>
+      <p> I  enjoy the taste of Burger King's flame-grilled burgers and find them very satisfying. Some people may also crave Burger King's signature Whopper sandwich, which includes flame-grilled beef, tomatoes, lettuce, and other toppings. I'm absolutely massive.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>
@@ -126,7 +126,7 @@
       </div>
     </div>
     <div class="post-content">
-      <p> I get carried by Joel Embiid and he's the only reason why I lead the league in assists per game. I am the literally the 4th best player on my team behind Joel, Tyrese, and of course Tobias Harris. I need to lose some weight too.</p>
+      <p> I get carried by Joel Embiid and he's the only reason why I lead the league in assists per game fr. I am the literally the 4th best player on my team behind Joel, Tyrese, and of course Tobias Harris. I need to lose some weight too.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>
