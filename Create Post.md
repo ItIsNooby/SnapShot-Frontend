@@ -1,83 +1,68 @@
 <html>
 <head>
  <style>
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
-}
-
-.App {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.new-post-form {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.new-post-form textarea {
-  height: 150px;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  resize: none;
-}
-
-.new-post-form input {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
-}
-
-.new-post-form button {
-  padding: 10px;
-  font-size: 16px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.new-post-form button:hover {
-  background-color: #0056b3;
-}
-
-.post-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.post {
-  background-color: #fff;
-  border-radius: 5px;
-  padding: 20px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-}
-
-.post .content {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.post .user-id,
-.post .created-at {
-  font-size: 14px;
-  color: #777;
-}
+   body {
+      font-family: Times, sans-serif;
+      background-color: #86c5da;
+    }
+    
+    form {
+      background-color: white;
+      border: 1px solid #ddd;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1);
+      border-radius: 5px;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+    }
+    
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background-color 0.2s;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #0069d9;
+    }
+    
+    .error {
+      color: red;
+      font-size: 14px;
+      margin-top: 5px;
+    }
   </style>
 <head>
     <meta charset="UTF-8">
