@@ -98,18 +98,14 @@
   <section class="post-form">
     <h2>Create a new post</h2>
     <form id="create-post-form">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-      <label for="content">Content:</label>
-      <textarea id="content" name="content" rows="5" required></textarea>
+        <form id="post-form">
+            <label for="image-upload">Choose from files:</label>
+            <input type="file" id="image-upload" accept="image/*" required>
+            <br>
+      <label for="Caption">Caption:</label>
+      <textarea id="Caption" name="Caption" rows="5" required></textarea>
+      <textarea id="caption" placeholder="Write a caption..." required></textarea>
       <button type="submit">Post</button>
     </form>
   </section>
-
-  <section class="posts">
-    <h2>Posts</h2>
-    <div id="posts-container"></div>
-  </section>
-
-  <script src="scripts.js"></script>
 </body>
