@@ -106,5 +106,3 @@
       <textarea id="Caption" placeholder="Write a caption..." required></textarea>
       <button type="submit">Post</button>
     </form>
-  </section>
-</body>
