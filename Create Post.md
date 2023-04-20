@@ -88,4 +88,28 @@
     <script src="script.js"></script>
 </body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Post Feature</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="post-form">
+    <h2>Create a new post</h2>
+    <form id="create-post-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="content">Content:</label>
+      <textarea id="content" name="content" rows="5" required></textarea>
+      <button type="submit">Post</button>
+    </form>
+  </section>
 
+  <section class="posts">
+    <h2>Posts</h2>
+    <div id="posts-container"></div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
