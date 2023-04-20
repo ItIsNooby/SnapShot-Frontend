@@ -236,3 +236,59 @@
     </script>
 </body>
 </html> 
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration and Login Example</title>
+</head>
+<body>
+    <h1>User Registration and Login Example</h1>
+    <h2>Register</h2>
+    <form id="register-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit">Register</button>
+    </form>
+    <h2>Login</h2>
+    <form id="login-form">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+        <button type="submit">Login</button>
+    </form>
+    <script>
+        function registerUser(event) {
+            event.preventDefault();
+            const username = document.getElementById("register-form").elements.username.value;
+            const password = document.getElementById("register-form").elements.password.value;
+            fetch('https://snap-shot.duckdns.org/register', {
+                method: 'POST',
+                body: JSON.stringify({username: username, password: password}),
+                headers: {'Content-Type': 'application/json'}
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+        }
+        function loginUser(event) {
+            event.preventDefault();
+            const username = document.getElementById("login-form").elements.username.value;
+            const password = document.getElementById("login-form").elements.password.value;
+            fetch('https://snap-shot.duckdns.org/login', {
+                method: 'POST',
+                body: JSON.stringify({username: username, password: password}),
+                headers: {'Content-Type': 'application/json'}
+            })
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error(error));
+        }
+        document.getElementById("register-form").addEventListener("submit", registerUser);
+        document.getElementById("login-form").addEventListener("submit", loginUser);
+    </script>
+</body>
+</html>
