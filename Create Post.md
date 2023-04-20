@@ -99,12 +99,11 @@
     <h2>Create a new post</h2>
     <form id="create-post-form">
         <form id="post-form">
-            <label for="image-upload">Choose from files:</label>
+            <label for="image-upload">Choose photo(s) from files:</label>
             <input type="file" id="image-upload" accept="image/*" required>
             <br>
       <label for="Caption">Caption:</label>
-      <textarea id="Caption" name="Caption" rows="5" required></textarea>
-      <textarea id="caption" placeholder="Write a caption..." required></textarea>
+      <textarea id="Caption" placeholder="Write a caption..." required></textarea>
       <button type="submit">Post</button>
     </form>
   </section>
