@@ -136,3 +136,27 @@
     </div>
   </div> 
 
+<script>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Like Button</title>
+  </head>
+  <body>
+  <button id="likeButton" onclick="toggleLike()">Like</button>
+  <script src="script.js"></script>
+  </body>
+
+  }
+  function toggleLike() {
+    const likeButton = document.getElementById('likeButton');
+
+    if (likeButton.style.backgroundColor === 'blue') {
+      likeButton.style.backgroundColor = '';
+      likeButton.style.color = '';
+    } else {
+      likeButton.style.backgroundColor = 'blue';
+      likeButton.style.color = 'white';
+    }
+  }
+</script>
