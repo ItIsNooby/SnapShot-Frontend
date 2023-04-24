@@ -65,27 +65,20 @@
     }
   </style>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Media Site</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Post Feature</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="post-container">
+  <section class="post-form">
+    <h2>Create a new post</h2>
+    <form id="create-post-form">
         <form id="post-form">
-            <label for="image-upload">Choose from files:</label>
+            <label for="image-upload">Choose photo(s) from files:</label>
             <input type="file" id="image-upload" accept="image/*" required>
             <br>
-            <label for="camera-input">Take a photo:</label>
-            <input type="file" id="camera-input" accept="image/*" capture="environment">
-            <br>
-            <textarea id="caption" placeholder="Write a caption..." required></textarea>
-            <button type="submit">Post</button>
-        </form>
-        <div id="posts"></div>
-    </div>
-    <div id="checkmark" style="display: none;">✔️ Posted!</div>
-    <script src="script.js"></script>
-</body>
-
-
+      <label for="Caption">Caption:</label>
+      <textarea id="Caption" placeholder="Write a caption..." required></textarea>
+      <button type="submit">Post</button>
+    </form>
