@@ -89,7 +89,7 @@
       </div>
     </div>
     <div class="post-content">
-      <p>Life is a journey, and sometimes we get lost along the way. But it's never too late to find our way back and discover new paths. #inspiration #motivation. Also new album coming soon dw gang.</p>
+      <p>Life is a journey, and sometimes we get lost along the way. But it's never too late to find our way back and discover new paths. #inspiration #motivation. Also new album coming soon don't worry gang.</p>
     </div>
     <div class="post-actions">
       <button><img src="like.png" alt="Like icon">Like</button>
