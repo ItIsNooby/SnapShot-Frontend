@@ -72,7 +72,7 @@
 </head>
 <body>
   <section class="post-form">
-    <h2>Create a new post</h2>
+    <h2>Create A New Post</h2>
     <form id="create-post-form">
         <form id="post-form">
             <label for="image-upload">Choose photo(s) from files:</label>
