@@ -78,7 +78,7 @@
             <label for="image-upload">Choose photo(s) from files:</label>
             <input type="file" id="image-upload" accept="image/*" required>
             <br>
-      <label for="Caption">Caption:</label>
+      <label for="Caption">Caption</label>
       <textarea id="Caption" placeholder="Write a caption..." required></textarea>
       <button type="submit">Post</button>
     </form>
