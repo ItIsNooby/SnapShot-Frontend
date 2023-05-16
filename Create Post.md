@@ -75,7 +75,7 @@
     <h2>Create A New Post</h2>
     <form id="create-post-form">
         <form id="post-form">
-            <label for="image-upload">Choose Photo(s) from files:</label>
+            <label for="image-upload">Choose Photo(s) From files:</label>
             <input type="file" id="image-upload" accept="image/*" required>
             <br>
       <label for="Caption">Caption</label>
